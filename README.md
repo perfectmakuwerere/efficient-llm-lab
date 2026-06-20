@@ -27,9 +27,7 @@ A Hugging Face Space (Gradio + Qwen2.5-7B-Instruct) that explains roofline analy
 - **Space:** [huggingface.co/nakue](https://huggingface.co/nakue)
 - **Status:** complete (v1); agent-loop extension planned
 
-### Ollama benchmarking CLI
-A command-line tool benchmarking Ollama model variants on TTFT, throughput, cosine similarity, and ROUGE-L.
-- **Status:** complete
+
 
 ### Reasoning, tool-calling, and distillation training notebooks
 Three complete training notebooks covering different post-training objectives:
@@ -38,10 +36,6 @@ Three complete training notebooks covering different post-training objectives:
 - **GLM-4-9B distillation / Qwen-format conversion pipeline**
 - **Status:** complete
 
-### Shona bilingual reasoning fine-tune
-`Qwen3-1.7B` SFT on the `vamboai/fikira` dataset with W8A8 quantized variants, reframed as a bilingual Shona-English code-switching math explanation assistant rather than a replacement for English-medium instruction.
-- **Models:** `nakue/Qwen3-1.7B-shona-reasoning-BF16` and W8A8 variants
-- **Status:** complete
 
 ---
 
