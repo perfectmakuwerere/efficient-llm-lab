@@ -45,18 +45,4 @@ Three complete training notebooks covering different post-training objectives:
 
 ---
 
-## Why this structure
 
-Most fine-tuning portfolios are a pile of disconnected one-off uploads. The goal here is the opposite: each project should stand alone as a complete, benchmarked artifact, but read together as one coherent investigation into model efficiency — what cheap interventions (LoRA fine-tuning, RL with a verifiable reward, post-training quantization) buy you, and where a small specialized model can legitimately out-perform a much larger general one.
-
-## Repo structure
-
-```
-notebooks/
-  unsloth_funccall_finetune.ipynb
-  bfcl_eval_notebook.ipynb
-  ...
-README.md
-```
-
-Each notebook is self-contained and documents its own setup, dataset, and eval methodology in markdown cells at the top.
